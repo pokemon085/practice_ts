@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>webpack & TS</title>
+  <!--
+    來源: https://24kcs.github.io/vue3_study/chapter1/04_webpack%E6%89%93%E5%8C%85.html#build-webpack-config-js
+    1.建立public folder 裡面再建立 index.html  
+    2.建立src folder 裡面再建立 main.js
+    3.建立 build folder 裡面再建立 webpack.config.js
+    4.安裝
+    step:  
+    - yarn init -y
+    - tsc --init
+    -yarn add -D typescript 
+    - yarn add webpack@4.44.2 --dev         
+    - yarn add --dev html-webpack-plugin@4  
+    - yarn add -D cross-env
+    - yarn add ts-loader@~8.2.0 
+    /*/webpack & html-webpack-plugin兩個版本必須相同
+    5.打開 package.json 將裡面script加入
+      "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.js",
+      "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js"
+    6.運行&打包
+      yarn dev
+      yarn build
+   -->
+</head>
+<body>
+  
+</body>
+</html>
