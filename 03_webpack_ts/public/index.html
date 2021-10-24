@@ -14,11 +14,18 @@
     step:  
     - yarn init -y
     - tsc --init
-    -yarn add -D typescript 
-    - yarn add webpack@4.44.2 --dev         
-    - yarn add --dev html-webpack-plugin@4  
-    - yarn add -D cross-env
-    - yarn add ts-loader@~8.2.0 
+    yarn add -D typescript
+    yarn add -D webpack@4.44.2       
+    yarn add -D webpack webpack-cli@3.3.10
+    yarn add -D webpack-dev-server@3.10.2
+    yarn add -D html-webpack-plugin clean-webpack-plugin@4 
+    yarn add -D ts-loader@~8.2.0 
+    yarn add -D cross-env
+    yarn add --save-dev clean-webpack-plugin@4
+    npm install --save-dev clean-webpack-plugin 
+    npm uninstall webpack --save-dev 
+    yarn add -D webpack@4.44.2         
+ 
     /*/webpack & html-webpack-plugin兩個版本必須相同
     5.打開 package.json 將裡面script加入
       "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.js",
