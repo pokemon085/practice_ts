@@ -5,5 +5,6 @@
 //import './04_類類型'
 //import './05_類'
 //import './06_繼承'
-import './07_多態'
+// import './07_多態'
+import './08_修飾符'
 document.write('Hello Webpack TS!')
