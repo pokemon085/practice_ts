@@ -4,5 +4,6 @@
 //import './03_函數類型'
 //import './04_類類型'
 //import './05_類'
-import './06_繼承'
+//import './06_繼承'
+import './07_多態'
 document.write('Hello Webpack TS!')
