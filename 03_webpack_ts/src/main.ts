@@ -8,5 +8,6 @@
 // import './07_多態'
 //import './08_修飾符'
 //import './09_readonly修飾符'
-import './10_存取器'
+// import './10_存取器'
+import './11_靜態成員'
 document.write('Hello Webpack TS!')
