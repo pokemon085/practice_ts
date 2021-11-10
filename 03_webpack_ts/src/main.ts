@@ -12,5 +12,6 @@
 // import './11_靜態成員'
 // import './12_抽象類'
 // import './13_函數'
-import './14_可選參數'
+// import './14_可選參數'
+import './15_剩餘參數'
 document.write('Hello Webpack TS!')
