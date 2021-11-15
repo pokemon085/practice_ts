@@ -16,7 +16,7 @@
     g1.add=function(x,y){
         return x+y
     }
-    console.log(g1.add(10,20))
+    console.log(g1.add(10,20)) //30
 
 
     //string
@@ -27,6 +27,6 @@
     g2.add=function(x,y){
         return x+y
     }
-    console.log(g2.add('bbbb',g2.defaultValue))
+    console.log(g2.add('bbbb',g2.defaultValue)) //bbbbaaaa
 
 })()
