@@ -16,5 +16,7 @@
 //import './15_剩餘參數'
 //import './16_函數重載'
 //import './17_泛型'
-import './18_多個泛型'
+//import './18_多個泛型'
+//import './19_泛型接口'
+import './20_泛型類'
 document.write('Hello Webpack TS!')
