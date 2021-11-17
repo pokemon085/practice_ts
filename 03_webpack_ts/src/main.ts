@@ -18,5 +18,6 @@
 //import './17_泛型'
 //import './18_多個泛型'
 //import './19_泛型接口'
-import './20_泛型類'
+// import './20_泛型類'
+import './21_泛型約束'
 document.write('Hello Webpack TS!')
